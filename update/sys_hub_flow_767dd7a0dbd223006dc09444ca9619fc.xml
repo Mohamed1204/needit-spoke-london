@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow to test custom action.</description>
+        <internal_name>action_test_flow</internal_name>
+        <label_cache>[{"name":"0ef1b3de-39ac-4d22-b88c-d5edced31df0.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"0ef1b3de-39ac-4d22-b88c-d5edced31df0.Record","label":"3➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"8bc7c073-de73-4aa5-b275-d3737dd208f4.calculated_date","label":"2➛Calculated date","type":"glide_date","base_type":"glide_date"},{"name":"42979ed2-8c39-4f41-b774-43d2f8289c8c.parameter","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string"},{"name":"968346b6-9207-4296-8aef-33007957aaa0.follow_up_task","label":"2➛Follow-up Task","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"388cc8dd-98e4-4c49-90a1-b6d41640a294.calculated_date","label":"1➛Calculated date","reference_display":"Calculated date","type":"glide_date","base_type":"glide_date"},{"name":"ad8bd05a-ad59-4f1c-baae-0c8beab00018.parameter","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>find and close long overdue task</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-07 20:22:04</sys_created_on>
+        <sys_id>767dd7a0dbd223006dc09444ca9619fc</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>find and close long overdue task</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_297486_needit_sp">ed0cd7ecdb9223006dc09444ca96190c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">ed0cd7ecdb9223006dc09444ca96190c</sys_scope>
+        <sys_update_name>sys_hub_flow_767dd7a0dbd223006dc09444ca9619fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-07 23:52:47</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=767dd7a0dbd223006dc09444ca9619fc"/>
+    <sys_variable_value action="delete_multiple" query="document_key=767dd7a0dbd223006dc09444ca9619fc"/>
+</record_update>
